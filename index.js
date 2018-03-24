@@ -61,4 +61,4 @@ client.on("message", (message) => {
     message.reply("Erreur de command !")
 })
 
-client.login("NDI2OTU1NTAyNzY1ODY3MDE4.DZdhAA.JB_iNIXs9a1xjFcDdvW3fi0nKP8")
+client.login(process.env.TOKEN)
